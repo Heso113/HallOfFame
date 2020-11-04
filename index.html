@@ -1,11 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
     <title>HallOfFame</title>
 </head>
+
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <h1>Hall of Fame</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="hof" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image0" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName0"></h5>
+                                                <p class="card-text" id="artistGenre0"></p>
+                                                <p class="card-text" id="artistCountry0"></p>
+                                                <p class="card-text" id="artistLyrics0"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image1" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName1"></h5>
+                                                <p class="card-text" id="artistGenre1"></p>
+                                                <p class="card-text" id="artistCountry1"></p>
+                                                <p class="card-text" id="artistLyrics1"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image2" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName2"></h5>
+                                                <p class="card-text" id="artistGenre2"></p>
+                                                <p class="card-text" id="artistCountry2"></p>
+                                                <p class="card-text" id="artistLyrics2"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image3" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName3"></h5>
+                                                <p class="card-text" id="artistGenre3"></p>
+                                                <p class="card-text" id="artistCountry3"></p>
+                                                <p class="card-text" id="artistLyrics3"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image4" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName4"></h5>
+                                                <p class="card-text" id="artistGenre4"></p>
+                                                <p class="card-text" id="artistCountry4"></p>
+                                                <p class="card-text" id="artistLyrics4"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image5" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName5"></h5>
+                                                <p class="card-text" id="artistGenre5"></p>
+                                                <p class="card-text" id="artistCountry5"></p>
+                                                <p class="card-text" id="artistLyrics5"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image6" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName6"></h5>
+                                                <p class="card-text" id="artistGenre6"></p>
+                                                <p class="card-text" id="artistCountry6"></p>
+                                                <p class="card-text" id="artistLyrics6"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image7" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName7"></h5>
+                                                <p class="card-text" id="artistGenre7"></p>
+                                                <p class="card-text" id="artistCountry7"></p>
+                                                <p class="card-text" id="artistLyrics7"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card">
+                                            <img class="card-img-top" id="image8" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="artistName8"></h5>
+                                                <p class="card-text" id="artistGenre8"></p>
+                                                <p class="card-text" id="artistCountry8"></p>
+                                                <p class="card-text" id="artistLyrics8"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#hof" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#hof" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1>Artist Spotlight</h1>
+        </div>
+        <div class="row">
+            <div class="card" style="width: 300px;margin: auto;">
+                <img class="card-img-top" id="spotlightImage" src="" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" id="spotlightArtistName"></h5>
+                    <p class="card-text" id="spotlightArtistGenre"></p>
+                    <p class="card-text" id="spotlightArtistCountry"></p>
+                    <p class="card-text" id="spotlightArtistLyrics"></p>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="module" src="application.js"></script>
 </body>
+
 </html>
